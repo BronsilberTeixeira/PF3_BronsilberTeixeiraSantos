@@ -12,7 +12,7 @@ function pmt () {
         
         const vr = valor*(((1+i)**tempo-1)/i).toFixed(2);
         
-        resultado.textContent = `${nome}, se você aplicar ${valor}, à taxa de juros de ${i}, durante ${tempo}, vc acomulara ${vr}`
+        resultado.textContent = `${nome}, se você aplicar ${valor}, à taxa de juros de ${i}, durante ${tempo}, você acomulara ${vr}`
 
     }
     else
